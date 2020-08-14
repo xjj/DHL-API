@@ -26,16 +26,7 @@
  */
 define('DHL_API_DIR', __DIR__ . '/');
 require_once(DHL_API_DIR . 'vendor/autoloadManager/autoloadManager.php');
-
-// Load adequate configuration file based on the APPLICATION_ENVIRONMENT 
-if ($applicationEnvironment = getenv('APPLICATION_ENVIRONMENT'))
-{
-    $configFilename = 'config-' . $applicationEnvironment . '.php';
-}
-else
-{
-    $configFilename = 'config.php';
-}
+$configFilename = 'config.php';
 
 //Allow to place the config file anywhere in project
 if (! defined('DHL_CONF_API_DIR')) {
