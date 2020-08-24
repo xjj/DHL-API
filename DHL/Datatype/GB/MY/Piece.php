@@ -112,7 +112,7 @@ class Piece extends \DHL\Datatype\GB\Piece
             'required' => false,
             'subobject' => true,
             'comment' => 'Piece contents description',
-            'maxLength' => '35',
+//            'maxLength' => '35',
         ),
     );
 }

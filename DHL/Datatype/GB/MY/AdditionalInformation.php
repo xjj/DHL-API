@@ -46,7 +46,7 @@ class AdditionalInformation extends Base
             'required' => false,
             'subobject' => true,
             'comment' => 'Piece ID',
-            'maxLength' => '35',
+//            'maxLength' => '35',
         ), 
 
         'CustomerDescription' => array(
